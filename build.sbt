@@ -3,9 +3,8 @@ name := "TypedAPI"
 
 // see https://www.scala-sbt.org/1.x/docs/Cross-Build.html
 // can't build for 2.11 as doobie is no longer available for scala 2.11
-val supportedScalaVersions = List("2.13.3", "2.12.12")
-scalaVersion := supportedScalaVersions.head
-crossScalaVersions := supportedScalaVersions
+scalaVersion := "2.12.12"
+crossScalaVersions := List("2.12.12", "2.13.3")
 
 // publishing informations
 organization := "fr.loicknuchel"
@@ -15,6 +14,8 @@ developers := List(Developer("loicknuchel", "Loïc Knuchel", "loicknuchel@gmail.
 scmInfo := Some(ScmInfo(url("https://github.com/loicknuchel/TypedAPI"), "git@github.com:loicknuchel/TypedAPI.git"))
 
 libraryDependencies ++= Seq(
+  "org.typelevel" %% "cats-core" % "2.1.1",
+  "com.typesafe.play" %% "play-json" % "2.9.1",
   "org.slf4j" % "slf4j-api" % "1.7.30",
   "ch.qos.logback" % "logback-classic" % "1.2.3",
   "org.scalatest" %% "scalatest" % "3.2.2" % Test)
