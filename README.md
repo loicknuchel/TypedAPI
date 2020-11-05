@@ -1,4 +1,6 @@
-# TypedAPI [![travis-badge][]][travis] [![codecov-badge][]][codecov] [![release-badge][]][release] [![maven-badge][]][maven] [![license-badge][]][license]
+# TypedAPI
+
+[![travis-badge][]][travis] [![codecov-badge][]][codecov] [![release-badge][]][release] [![maven-badge][]][maven] [![license-badge][]][license]
 
 [travis]:                          https://travis-ci.com/loicknuchel/TypedAPI
 [travis-badge]:                    https://travis-ci.com/loicknuchel/TypedAPI.svg?branch=master
