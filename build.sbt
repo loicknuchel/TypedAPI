@@ -14,7 +14,7 @@ developers := List(Developer("loicknuchel", "Loïc Knuchel", "loicknuchel@gmail.
 scmInfo := Some(ScmInfo(url("https://github.com/loicknuchel/TypedAPI"), "git@github.com:loicknuchel/TypedAPI.git"))
 
 libraryDependencies ++= Seq(
-  "org.typelevel" %% "cats-core" % "2.1.1",
+  "org.typelevel" %% "cats-core" % "2.4.0",
   "com.typesafe.play" %% "play-json" % "2.9.1",
   "org.slf4j" % "slf4j-api" % "1.7.30",
   "ch.qos.logback" % "logback-classic" % "1.2.3",
