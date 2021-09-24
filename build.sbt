@@ -18,7 +18,7 @@ libraryDependencies ++= Seq(
   "com.typesafe.play" %% "play-json" % "2.9.1",
   "org.slf4j" % "slf4j-api" % "1.7.30",
   "ch.qos.logback" % "logback-classic" % "1.2.3",
-  "org.scalatest" %% "scalatest" % "3.2.2" % Test)
+  "org.scalatest" %% "scalatest" % "3.2.10" % Test)
 
 // option added by addSbtPlugin("io.github.davidgregory084" % "sbt-tpolecat" % "0.1.14")
 // but as I have an unused import in generated file, I can't remove it and I can't ignore one package for this option :(
