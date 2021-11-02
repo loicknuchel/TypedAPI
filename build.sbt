@@ -4,7 +4,7 @@ name := "TypedAPI"
 // see https://www.scala-sbt.org/1.x/docs/Cross-Build.html
 // can't build for 2.11 as doobie is no longer available for scala 2.11
 scalaVersion := "2.12.12"
-crossScalaVersions := List("2.12.12", "2.13.3")
+crossScalaVersions := List("2.12.12", "2.13.7")
 
 // publishing informations
 organization := "fr.loicknuchel"
