@@ -17,7 +17,7 @@ libraryDependencies ++= Seq(
   "org.typelevel" %% "cats-core" % "2.1.1",
   "com.typesafe.play" %% "play-json" % "2.9.1",
   "org.slf4j" % "slf4j-api" % "1.7.30",
-  "ch.qos.logback" % "logback-classic" % "1.2.3",
+  "ch.qos.logback" % "logback-classic" % "1.2.12",
   "org.scalatest" %% "scalatest" % "3.2.2" % Test)
 
 // option added by addSbtPlugin("io.github.davidgregory084" % "sbt-tpolecat" % "0.1.14")
